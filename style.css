@@ -1,0 +1,47 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing : border-box;
+}
+
+body {
+    font-family: sans-serif;
+    color: white;
+    background-color: black;
+}
+
+#title , #description {
+    text-align: center;
+}
+
+#description {
+    font-style: italic;
+}
+
+form {
+    width: 900px;
+    margin: auto;
+    height: auto;
+}
+
+form .form-group {
+    display: block;
+    margin-bottom: 20px;
+    padding: 20px 20px;
+}
+
+form .form-group input {
+    padding: 10px 10px;
+}
+
+@media (max-width:960px) {
+    form {
+        width: 600px;
+    }
+}
+
+@media (max-width:480px) {
+    form {
+        width: 400px;
+    }
+}
